@@ -1,0 +1,72 @@
+/*CSS reset settings here*/
+body{
+ width: 950px;
+ background-color: #48343C;
+ margin: auto;
+ padding: auto;
+
+}
+#header{
+ postion:relative;
+ top: 0px;
+ margin: 0px;
+ left: 0px;
+ right: 0px;
+ background-color: #9998A1;
+}
+shiftright{
+    postion:relative;
+    right: 0px;
+}
+#spaceforphoto{
+ min-height: 200px;
+ width: 400px;
+   background-color: #48343C;
+ display: inline-block;
+ margin: 10px;
+ padding: 0px;
+}
+#introduction{
+ float: right;
+ height: 260px;
+ width: 420px;
+ background-color: #E0D4DF;
+ display: inline-block;
+ margin: 0px;
+ padding: 0px;
+}
+#largespace{
+  min-height: 300px;
+  width: auto;
+  background-color: #48343C;
+  margin: 0px;
+  padding:10px;
+
+}
+#largespace2{
+  height: 260px;
+  width: auto;
+  background-color: #48343C;
+  margin: 0px;
+  padding:10px;
+
+}
+#messageblocks{
+ background-color: #E0D4DF;
+ display: inline-block;
+ width: 300px;
+ height: 400px;
+ margin: 0px;
+ padding: 2px;
+}
+
+#spacefortaps{
+  background-color: #E0D4DF;
+  psotion:relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0px;
+  padding: 0px;
+
+}
