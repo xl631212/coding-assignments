@@ -1,0 +1,115 @@
+/*CSS reset settings here*/
+
+body{
+
+ background-color: #265174;
+ padding: 0px;
+ width: 100%;
+ margin: 0px auto;
+ font-family:Georgia;
+
+}
+#titleblock{
+  display: block;
+  background-color: #265174;
+
+}
+#searchBlock{
+  display: inline-block;
+  background-color: #265174;
+  width: 40%;
+  height: 100px;
+  margin: 10px;
+  float:right;
+
+}
+#header{
+  display: block;
+  background-color: #4B80AB;
+
+}
+
+#navigation{
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  left: 5%;
+  vertical-align: top;
+  background-color: #265174;
+  text-align: center;
+  margin: 10px;
+  padding: 0px;
+  list-style-position: inside;
+  font-size: 120%;
+  color: white;
+  height: 300px;
+  line-height: 2;
+}
+
+#introduction{
+  position: relative;
+  top: 0px;
+  left: 5%;
+  display: inline-block;
+  width: 55%;
+  background-color: #265174;
+  text-align: center;
+  margin: 10px;
+  padding: 0px;
+  color: white;
+}
+#whiteblock{
+  display: block;
+  background-color: white;
+  height: 50%;
+}
+YelloText {
+    text-align: center;
+    color: yellow;
+    font-size: 150%;
+    word-spacing: 0.1cm;
+    padding: 0px;
+    margin: 0px;
+
+}
+p.oblique {font-style:oblique}
+#innerblock{
+  border-top: 5px solid #265174;
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 10%;
+  width: 40%;
+  background-color: white;
+  list-style-position: inside;
+  margin: 5px;
+}
+#footer{
+  position: relative;
+  height: 10%;
+  bottom: 0;
+
+  background-color: #265174;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 90%;
+
+}
+.navbar {
+
+    position: relative;
+    left: 5%;
+    display: block;
+    box-shadow: 2px 3px #888888;
+    word-spacing: 2cm;
+    top: 0;
+    width: 90%;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4981A6;
+    margin: 0px;
+    color: white;
+}
