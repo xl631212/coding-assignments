@@ -1,0 +1,50 @@
+<html>
+<head>
+	<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+	</head>
+<h1>There are all my friends</h1>
+		<form action='/create_friend' method='post'>
+			First Name:
+			<input type='text' name='first_name'>
+			Last Name:
+			<input type='text' name='last_name' >
+			Occupation:
+			<input type='text' name='occupation'>
+			  <br><br>
+  			<input type="submit" value="Submit">
+		</form>	
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Occupation</th>
+      </tr>
+    </thead>
+    <tbody>
+    	{% for friend in friends: %}
+    		<tr>
+  			<td> {{ friend['first_name'] }} </td>
+  			<td> {{ friend['last_name'] }} </td>
+  			<td> {{ friend['occupation']}} </td>
+  			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+</html>
